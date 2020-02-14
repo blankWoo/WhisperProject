@@ -1,4 +1,5 @@
 package whisper.board.Service;
 
-public class BoardVO {
+public class BoardVO  extends Board{
+
 }

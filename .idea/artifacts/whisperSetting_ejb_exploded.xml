@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="whisperSetting:ejb exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/whisperSetting_ejb_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="whisperSetting/ejb/EJB" />
+      <element id="javaee-facet-classes" facet="whisperSetting/ejb/EJB" />
+    </root>
+  </artifact>
+</component>

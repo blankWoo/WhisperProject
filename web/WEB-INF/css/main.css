@@ -1,0 +1,10 @@
+.menu-bar > section {
+    margin: 0 auto;
+    text-align: center;
+}
+.color {
+    background:#435a6b;
+}
+.body{
+    font-family: "MS Gothic", sans-serif;
+}
