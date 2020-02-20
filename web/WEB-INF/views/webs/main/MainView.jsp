@@ -6,57 +6,50 @@
   To change this template use File | Settings | File Templates.
 --%>
 <!DOCTYPE html>
+<%@ include file="/WEB-INF/views/webs/cmmn/init.jsp"%>
 <html lang="ko">
 <head>
     <title>Whisper Music</title>
-    <meta charset="utf-8">
+<%--    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
-
-    <link rel="stylesheet" href="../../../css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="../../../css/animate.css">
-
-    <link rel="stylesheet" href="../../../css/owl.carousel.min.css">
-    <link rel="stylesheet" href="../../../css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="../../../css/magnific-popup.css">
-
-    <link rel="stylesheet" href="../../../css/aos.css">
-
-    <link rel="stylesheet" href="../../../css/ionicons.min.css">
-
-    <link rel="stylesheet" href="../../../css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="../../../css/jquery.timepicker.css">
-
-
-    <link rel="stylesheet" href="../../../css/flaticon.css">
-    <link rel="stylesheet" href="../../../css/icomoon.css">
-    <link rel="stylesheet" href="../../../css/style.css">
+    <link rel="stylesheet" href="../../../../css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="../../../../css/animate.css">
+    <link rel="stylesheet" href="../../../../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../../../../css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../../../../css/magnific-popup.css">
+    <link rel="stylesheet" href="../../../../css/aos.css">
+    <link rel="stylesheet" href="../../../../css/ionicons.min.css">
+    <link rel="stylesheet" href="../../../../css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="../../../../css/jquery.timepicker.css">
+    <link rel="stylesheet" href="../../../../css/flaticon.css">
+    <link rel="stylesheet" href="../../../../css/icomoon.css">
+    <link rel="stylesheet" href="../../../../css/style.css">--%>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
-        <a class="navbar-brand" href="index.html">Vacation<span>Travel Agency</span></a>
+        <a class="navbar-brand" href="/main/main.do">Whisper<span>MUSIC AROUND</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="oi oi-menu"></span> Menu
         </button>
 
         <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item active"><a href="/main/main.do" class="nav-link">Home</a></li>
                 <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="destination.html" class="nav-link">Destination</a></li>
-                <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-                <li class="nav-item cta"><a href="#" class="nav-link">Book Now</a></li>
-
+                <li class="nav-item"><a href="destination.html" class="nav-link">Music Rank</a></li>
+                <li class="nav-item"><a href="blog.html" class="nav-link">Album</a></li>
+                <li class="nav-item"><a href="/board/boardMain.do" class="nav-link">Board</a></li>
+                <li class="nav-item"><a href="/board/boardMain.do" class="nav-link">QnA</a></li>
+                <li class="nav-item cta"><a href="/login/loginMain.do" class="nav-link">Login</a></li>
             </ul>
         </div>
     </div>
 </nav>
 <!-- END nav -->
 
-<div class="hero-wrap js-fullheight" style="background-image: url('/WEB-INF/images/bg_2.jpg');" data-stellar-background-ratio="0.5">
+<div class="hero-wrap js-fullheight" style="background-image: url('/images/bg_2.jpg');" data-stellar-background-ratio="0.5">
     <div class="overlay"></div>
     <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
@@ -65,7 +58,7 @@
                     <span class="ion-ios-play"></span>
                 </a>
                 <p class="caps" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Travel to the any corner of the world, without going around in circles</p>
-                <h1 data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Make Your Tour Amazing With Us</h1>
+                <h1 data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Make Your Music Amazing With Us</h1>
             </div>
         </div>
     </div>
@@ -204,7 +197,7 @@
     <div class="container">
         <div class="row d-flex">
             <div class="col-md-6 d-flex">
-                <div class="img d-flex align-self-stretch" style="background-image:url('/WEB-INF/images/about.jpg');"></div>
+                <div class="img d-flex align-self-stretch" style="background-image:url('/images/about.jpg');"></div>
             </div>
             <div class="col-md-6 pl-md-5 py-5">
                 <div class="row justify-content-start pb-3">
@@ -255,7 +248,7 @@
         <div class="row">
             <div class="col-md-3 ftco-animate">
                 <div class="project-destination">
-                    <a href="#" class="img" style="background-image: url('/WEB-INF/images/place-1.jpg');">
+                    <a href="#" class="img" style="background-image: url('/images/place-1.jpg');">
                         <div class="text">
                             <h3>Singapore</h3>
                             <span>8 Tours</span>
@@ -265,7 +258,7 @@
             </div>
             <div class="col-md-3 ftco-animate">
                 <div class="project-destination">
-                    <a href="#" class="img" style="background-image: url('/WEB-INF/images/place-2.jpg');">
+                    <a href="#" class="img" style="background-image: url('/images/place-2.jpg');">
                         <div class="text">
                             <h3>Canada</h3>
                             <span>2 Tours</span>
@@ -275,7 +268,7 @@
             </div>
             <div class="col-md-3 ftco-animate">
                 <div class="project-destination">
-                    <a href="#" class="img" style="background-image: url(/WEB-INF/images/place-3.jpg);">
+                    <a href="#" class="img" style="background-image: url(/images/place-3.jpg);">
                         <div class="text">
                             <h3>Thailand</h3>
                             <span>5 Tours</span>
@@ -285,7 +278,7 @@
             </div>
             <div class="col-md-3 ftco-animate">
                 <div class="project-destination">
-                    <a href="#" class="img" style="background-image: url(/WEB-INF/images/place-4.jpg);">
+                    <a href="#" class="img" style="background-image: url(/images/place-4.jpg);">
                         <div class="text">
                             <h3>Autralia</h3>
                             <span>5 Tours</span>
@@ -307,7 +300,7 @@
         <div class="row">
             <div class="col-md-4 ftco-animate">
                 <div class="project-wrap">
-                    <a href="#" class="img" style="background-image: url(/WEB-INF/images/destination-1.jpg);"></a>
+                    <a href="#" class="img" style="background-image: url(/images/destination-1.jpg);"></a>
                     <div class="text p-4">
                         <span class="price">$300/person</span>
                         <span class="days">8 Days Tour</span>
@@ -323,7 +316,7 @@
             </div>
             <div class="col-md-4 ftco-animate">
                 <div class="project-wrap">
-                    <a href="#" class="img" style="background-image: url(/WEB-INF/images/destination-2.jpg);"></a>
+                    <a href="#" class="img" style="background-image: url(/images/destination-2.jpg);"></a>
                     <div class="text p-4">
                         <span class="price">$300/person</span>
                         <span class="days">10 Days Tour</span>
@@ -339,7 +332,7 @@
             </div>
             <div class="col-md-4 ftco-animate">
                 <div class="project-wrap">
-                    <a href="#" class="img" style="background-image: url(/WEB-INF/images/destination-3.jpg);"></a>
+                    <a href="#" class="img" style="background-image: url(/images/destination-3.jpg);"></a>
                     <div class="text p-4">
                         <span class="price">$300/person</span>
                         <span class="days">7 Days Tour</span>
@@ -356,7 +349,7 @@
 
             <div class="col-md-4 ftco-animate">
                 <div class="project-wrap">
-                    <a href="#" class="img" style="background-image: url(/WEB-INF/images/destination-4.jpg);"></a>
+                    <a href="#" class="img" style="background-image: url(/images/destination-4.jpg);"></a>
                     <div class="text p-4">
                         <span class="price">$300/person</span>
                         <span class="days">8 Days Tour</span>
@@ -372,7 +365,7 @@
             </div>
             <div class="col-md-4 ftco-animate">
                 <div class="project-wrap">
-                    <a href="#" class="img" style="background-image: url(/WEB-INF/images/destination-5.jpg);"></a>
+                    <a href="#" class="img" style="background-image: url(/images/destination-5.jpg);"></a>
                     <div class="text p-4">
                         <span class="price">$300/person</span>
                         <span class="days">10 Days Tour</span>
@@ -388,7 +381,7 @@
             </div>
             <div class="col-md-4 ftco-animate">
                 <div class="project-wrap">
-                    <a href="#" class="img" style="background-image: url(/WEB-INF/images/destination-6.jpg);"></a>
+                    <a href="#" class="img" style="background-image: url(/images/destination-6.jpg);"></a>
                     <div class="text p-4">
                         <span class="price">$300/person</span>
                         <span class="days">7 Days Tour</span>
@@ -406,7 +399,7 @@
     </div>
 </section>
 
-<section class="ftco-section testimony-section bg-bottom" style="background-image: url(/WEB-INF/images/bg_3.jpg);">
+<section class="ftco-section testimony-section bg-bottom" style="background-image: url(/images/bg_3.jpg);">
     <div class="container">
         <div class="row justify-content-center pb-4">
             <div class="col-md-7 text-center heading-section ftco-animate">
@@ -421,7 +414,7 @@
                             <div class="text">
                                 <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                                 <div class="d-flex align-items-center">
-                                    <div class="user-img" style="background-image: url(/WEB-INF/images/person_1.jpg)"></div>
+                                    <div class="user-img" style="background-image: url(/images/person_1.jpg)"></div>
                                     <div class="pl-3">
                                         <p class="name">Roger Scott</p>
                                         <span class="position">Marketing Manager</span>
@@ -435,7 +428,7 @@
                             <div class="text">
                                 <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                                 <div class="d-flex align-items-center">
-                                    <div class="user-img" style="background-image: url(/WEB-INF/images/person_2.jpg)"></div>
+                                    <div class="user-img" style="background-image: url(/images/person_2.jpg)"></div>
                                     <div class="pl-3">
                                         <p class="name">Roger Scott</p>
                                         <span class="position">Marketing Manager</span>
@@ -449,7 +442,7 @@
                             <div class="text">
                                 <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                                 <div class="d-flex align-items-center">
-                                    <div class="user-img" style="background-image: url(/WEB-INF/images/person_3.jpg)"></div>
+                                    <div class="user-img" style="background-image: url(/images/person_3.jpg)"></div>
                                     <div class="pl-3">
                                         <p class="name">Roger Scott</p>
                                         <span class="position">Marketing Manager</span>
@@ -463,7 +456,7 @@
                             <div class="text">
                                 <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                                 <div class="d-flex align-items-center">
-                                    <div class="user-img" style="background-image: url(/WEB-INF/images/person_1.jpg)"></div>
+                                    <div class="user-img" style="background-image: url(/images/person_1.jpg)"></div>
                                     <div class="pl-3">
                                         <p class="name">Roger Scott</p>
                                         <span class="position">Marketing Manager</span>
@@ -477,7 +470,7 @@
                             <div class="text">
                                 <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                                 <div class="d-flex align-items-center">
-                                    <div class="user-img" style="background-image: url(/WEB-INF/images/person_2.jpg)"></div>
+                                    <div class="user-img" style="background-image: url(/images/person_2.jpg)"></div>
                                     <div class="pl-3">
                                         <p class="name">Roger Scott</p>
                                         <span class="position">Marketing Manager</span>
@@ -503,7 +496,7 @@
         <div class="row d-flex">
             <div class="col-md-4 d-flex ftco-animate">
                 <div class="blog-entry justify-content-end">
-                    <a href="blog-single.html" class="block-20" style="background-image: url('/WEB-INF/images/image_1.jpg');">
+                    <a href="blog-single.html" class="block-20" style="background-image: url('/images/image_1.jpg');">
                     </a>
                     <div class="text mt-3 float-right d-block">
                         <div class="d-flex align-items-center mb-4 topp">
@@ -522,7 +515,7 @@
             </div>
             <div class="col-md-4 d-flex ftco-animate">
                 <div class="blog-entry justify-content-end">
-                    <a href="blog-single.html" class="block-20" style="background-image: url('/WEB-INF/images/image_2.jpg');">
+                    <a href="blog-single.html" class="block-20" style="background-image: url('/images/image_2.jpg');">
                     </a>
                     <div class="text mt-3 float-right d-block">
                         <div class="d-flex align-items-center mb-4 topp">
@@ -541,7 +534,7 @@
             </div>
             <div class="col-md-4 d-flex ftco-animate">
                 <div class="blog-entry">
-                    <a href="blog-single.html" class="block-20" style="background-image: url('/WEB-INF/images/image_3.jpg');">
+                    <a href="blog-single.html" class="block-20" style="background-image: url('/images/image_3.jpg');">
                     </a>
                     <div class="text mt-3 float-right d-block">
                         <div class="d-flex align-items-center mb-4 topp">
@@ -562,7 +555,7 @@
     </div>
 </section>
 
-<footer class="ftco-footer bg-bottom" style="background-image: url(/WEB-INF/images/footer-bg.jpg);">
+<footer class="ftco-footer bg-bottom" style="background-image: url(/images/footer-bg.jpg);">
     <div class="container">
         <div class="row mb-5">
             <div class="col-md">
@@ -631,24 +624,26 @@
 <!-- loader -->
 <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
+<%--
 
-<script src="../../../js/jquery.min.js"></script>
-<script src="../../../js/jquery-migrate-3.0.1.min.js"></script>
-<script src="../../../js/popper.min.js"></script>
-<script src="../../../js/bootstrap.min.js"></script>
-<script src="../../../js/jquery.easing.1.3.js"></script>
-<script src="../../../js/jquery.waypoints.min.js"></script>
-<script src="../../../js/jquery.stellar.min.js"></script>
-<script src="../../../js/owl.carousel.min.js"></script>
-<script src="../../../js/jquery.magnific-popup.min.js"></script>
-<script src="../../../js/aos.js"></script>
-<script src="../../../js/jquery.animateNumber.min.js"></script>
-<script src="../../../js/bootstrap-datepicker.js"></script>
-<script src="../../../js/scrollax.min.js"></script>
+<script src="../../../../js/jquery.min.js"></script>
+<script src="../../../../js/jquery-migrate-3.0.1.min.js"></script>
+<script src="../../../../js/popper.min.js"></script>
+<script src="../../../../js/bootstrap.min.js"></script>
+<script src="../../../../js/jquery.easing.1.3.js"></script>
+<script src="../../../../js/jquery.waypoints.min.js"></script>
+<script src="../../../../js/jquery.stellar.min.js"></script>
+<script src="../../../../js/owl.carousel.min.js"></script>
+<script src="../../../../js/jquery.magnific-popup.min.js"></script>
+<script src="../../../../js/aos.js"></script>
+<script src="../../../../js/jquery.animateNumber.min.js"></script>
+<script src="../../../../js/bootstrap-datepicker.js"></script>
+<script src="../../../../js/scrollax.min.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-<script src="../../../js/google-map.js"></script>
-<script src="../../../js/main.js"></script>
-
+<script src="../../../../js/google-map.js"></script>
+<script src="../../../../js/main.js"></script>
+--%>
+<%@ include file="/WEB-INF/views/webs/cmmn/jsinit.jsp"%>
 </body>
 </html>
 

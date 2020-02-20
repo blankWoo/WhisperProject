@@ -6,16 +6,12 @@ import whisper.board.Service.BoardService;
 
 import javax.annotation.Resource;
 
-//@Controller
+@Controller
 public class BoardController {
 
-    /*@Resource(name = "boardService")*/
-    //@Resource
-    BoardService boardService;
-
- //   @RequestMapping(value="/board/boardMain.do")
+    @RequestMapping(value="/board/boardMain.do")
     public String boardMain()throws Exception{
-        String title = boardService.getBoardMain();
+        //String title = boardService.getBoardMain();
         return "webs/board/boardMain";
     }
 }
