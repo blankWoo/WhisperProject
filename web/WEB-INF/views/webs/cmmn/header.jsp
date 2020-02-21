@@ -1,21 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: curonsys
-  Date: 2020-02-13
-  Time: 오후 2:08
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%--
-<html>
-<head>
-    <title>Title</title>
-</head>
-<body>
-
-</body>
-</html>
---%>
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
         <a class="navbar-brand" href="/main/main.do">Whisper<span>MUSIC AROUND</span></a>

@@ -5,12 +5,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class CmmnController {
-    @RequestMapping(value="/cmmn/header")
+    @RequestMapping(value="/cmmn/header.do")
     public String header(){
-        return"webs/cmmn/header";
+        return "webs/cmmn/header";
     }
 
-    @RequestMapping(value="/cmmn/footer")
+    @RequestMapping(value="/cmmn/footer.do")
     public String footer(){
         return"webs/cmmn/footer";
     }

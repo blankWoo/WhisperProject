@@ -14,4 +14,9 @@ public class BoardController {
         //String title = boardService.getBoardMain();
         return "webs/board/boardMain";
     }
+
+    @RequestMapping(value="/board/boardRegist.do")
+    public String boardRegist(){
+        return "webs/board/boardRegist";
+    }
 }
