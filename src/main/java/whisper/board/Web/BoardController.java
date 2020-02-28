@@ -19,4 +19,10 @@ public class BoardController {
     public String boardRegist(){
         return "webs/board/boardRegist";
     }
+
+    @RequestMapping(value="/board/boardDetail.do")
+    public String boardDetail(){
+
+        return "webs/board/boardDetail";
+    }
 }

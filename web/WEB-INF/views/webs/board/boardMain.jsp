@@ -7,7 +7,8 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ include file="/WEB-INF/views/webs/cmmn/init.jsp"%>
-<html>
+<!DOCTYPE>
+<html lang="ko">
 <head>
     <title>Whisper Board</title>
 </head>
@@ -37,8 +38,8 @@
                                                 <h3><a href="#">Album : Ablum name</a></h3>
                                                 <p class="location"><span class="ion-ios-map"></span> Tag : #... #... #...</p>
                                                 <ul>
-                                                    <li><span class="flaticon-shower"></span>2</li>
-                                                    <li><span class="flaticon-king-size"></span>3</li>
+                                                    <li><a class="flaticon-shower"></a>2</li>
+                                                    <li><a class="flaticon-king-size"></a>3</li>
                                                     <li><span class="flaticon-mountains"></span>Near Mountain</li>
                                                 </ul>
                                             </div>
@@ -66,11 +67,11 @@
                                             <div class="text p-4">
                                                 <span class="price">$300/person</span>
                                                 <span class="days">7 Days Tour</span>
-                                                <h3><a href="#">Bali, Indonesia</a></h3>
+                                                <h3><a href="/board/boardDetail.do">Bali, Indonesia</a></h3>
                                                 <p class="location"><span class="ion-ios-map"></span> Bali, Indonesia</p>
                                                 <ul>
-                                                    <li><span class="flaticon-shower"></span>2</li>
-                                                    <li><span class="flaticon-king-size"></span>3</li>
+                                                    <li><a href="#" class="flaticon-shower"></a>2</li>
+                                                    <li><a href="#" class="flaticon-king-size"></a>3</li>
                                                     <li><span class="flaticon-sun-umbrella"></span>Near Beach</li>
                                                 </ul>
                                             </div>
@@ -86,9 +87,9 @@
                                                 <h3><a href="#">Bali, Indonesia</a></h3>
                                                 <p class="location"><span class="ion-ios-map"></span> Bali, Indonesia</p>
                                                 <ul>
-                                                    <li><span class="flaticon-shower"></span>2</li>
-                                                    <li><span class="flaticon-king-size"></span>3</li>
-                                                    <li><span class="flaticon-sun-umbrella"></span>Near Beach</li>
+                                                    <li><a class="flaticon-shower"></a>2</li>
+                                                    <li><a class="flaticon-king-size"></a>3</li>
+                                                    <li><a class="flaticon-sun-umbrella"></a>Near Beach</li>
                                                 </ul>
                                             </div>
                                         </div>
